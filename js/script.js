@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     tipoResiduos.addEventListener("change", function() {
         const selectedTipo = this.value;
-        subcategorias.innerHTML = ""; // Limpiar subcategorías
+        subcategorias.innerHTML = "";
         if (selectedTipo) {
             const subcategoriasOptions = opcionesSubcategorias[selectedTipo];
             subcategoriasOptions.forEach(subcat => {
